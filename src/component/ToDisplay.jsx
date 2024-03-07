@@ -50,7 +50,7 @@ const ToDisplay = ({ item, index }) => {
         <div>
             <div key={index} className="card m-4" style={{ width: "18rem", height: "28rem" }}>
 
-                <div id={ide} className="carousel slide">
+                <div id={ide} className="carousel carousel-dark slide">
                     <div class="carousel-inner">
 
                         {item.images.map((items, index) => {
@@ -66,9 +66,9 @@ const ToDisplay = ({ item, index }) => {
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target={ides} data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span classname="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
 
