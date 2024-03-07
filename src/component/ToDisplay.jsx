@@ -66,7 +66,7 @@ const ToDisplay = ({ item, index }) => {
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target={idess} data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target={ides} data-bs-slide="next">
                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
                          <span class="visually-hidden">Next</span>
                     </button>
